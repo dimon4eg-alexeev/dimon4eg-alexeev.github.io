@@ -1,0 +1,397 @@
+body{
+	font-family: FranklinGothic, Arial, sans-serif;
+}
+nav{
+	width: 100%;
+	height:60px;
+	background:#344051;
+}
+h3{
+	color: rgb(26 32 44);
+	font-size: 33px;
+	text-align: center;
+	font-weight: 600;
+}
+h4{
+	text-align: center;
+	font-size: 16.6px;
+	color: #3f495a;
+	font-weight: 200;
+}
+h5{
+	font-size: 16.67px;
+}
+.logo{
+	color:#fff;
+	font-size: 28px;
+	line-height: 60px;
+	padding-left: 388px;
+	float:left;
+}
+.menu{
+	float: left;
+	padding-left: 432px;
+}
+.menu li{
+	float:left;
+	line-height: 60px;
+	color:#fff;
+	margin-right: 17px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url("../img/andrewbrown.png") no-repeat 90% 100%/auto 85%, url("../img/background.png") center/cover no-repeat;
+}
+.title_container{
+	margin: 432px 0px 0px 404px;
+	float: left;
+	color: #2c384a;
+	text-align: center;
+}
+.title_container h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.title_container h4{
+	margin-top: 40px;
+	font-size: 22px;
+	font-weight: 200;
+	color: #79818d;
+}
+.title_container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin:50px 14px 0px 14px;
+}
+.aboutMe{
+	width: 100%;
+	height: 720px;
+	background: url("../img/background2.png") center/cover no-repeat;
+}
+.aboutMeContainer{
+	padding: 108px 595px;
+}
+.Underline{
+	background: url("../img/titleUnderline.png") center center no-repeat;
+	height: 100px;
+}
+.aboutMePhoto{
+	height: 225px;
+	background:url("../img/aboutMePhoto.png") center top no-repeat;
+}
+.aboutMeTextBlock{
+	font-size: 17.67px;
+	font-family: Calibri;
+	color:#3f495a;
+	margin: 0px 0px 40px 0px;
+}
+.aboutMe input{
+	text-align: center;
+	height: 35px;
+	border:2px solid;
+	border-radius: 5px;
+	background: url("../img/icon.png") 13px 50% no-repeat;
+	color: #6f707e;
+	padding: 0px 15px 0px 30px;
+	margin: 0px 290px;
+}
+.mySkills{
+	width: 100%;
+	height: 525px;
+	background: url("../img/background3.png");
+	text-align: center;
+}
+.mySkillsBlock{
+	width: 13%;
+	padding: 0px 42px;
+	height: 250px;
+	float:left;
+}
+.mySkillsEars{
+	width:24%;
+	height: 250px;
+	float:left;
+}
+.mySkillsBlockImage{
+	margin-bottom: 36px;
+	height: 47px;
+}
+.mySkillsBlockTitle{
+	margin-bottom: 17px;
+	font-size: 18.6px;
+	color: #cf7600;
+	font-weight: 500;
+	vertical-align: center;
+}
+.titleMargin{
+	width: 100%;
+	height: 80px;
+}
+.margin50px{
+	height: 50px;
+}
+.casesTitleContainer{
+	background-color: #fcfdfd;
+}
+.showCase{
+	height: 592px;
+	width: 61%;
+	background:url("../img/casesPhoto.png") center center no-repeat;
+	float: left;
+}
+.casesEars1{
+	width: 19.5%;
+	height: 592px;
+	float:left;
+}
+.casesEars2{
+	width: 19.5%;
+	height: 330px;
+	float:left;
+}
+.casesNotesLeftBlock{
+	width: 16%;
+	float:left;
+}
+.casesNotesRightBlock{
+	width: 45%;
+	float: left;
+}
+.casesNotesRightBlock h3{
+	font-size: 25px;
+	text-align: left;
+	margin-bottom: 16px;
+}
+.casesNotesLeftBlock h3{
+	font-size: 25px;
+	text-align: left;
+	margin-bottom: 16px;
+}
+.cases h5{
+	margin-bottom: 16px;
+}
+.cases input{
+	color: #FFF;
+	background-color: #63b5ae;
+	font-size: 21px;
+	padding: 16px 43px;
+	border-radius: 5px;
+}
+.separate{
+	width:100%;
+	float:left;
+}
+.priceCalc{
+	padding:172px 535px;
+	float:left;
+	width: 100%;
+}
+.priceCalc h3{
+	font-size: 29px;
+	text-align: left;
+	padding: 49px 0px 22px 0px;
+	text-transform: uppercase;
+}
+.priceCalc h2{
+	color: rgb(26 32 44);
+	font-size: 45.83px;
+	text-align: center;
+	font-weight: 600;
+}
+.priceCalc select{
+	width: 833px;
+	height: 60px;
+	background:url("../img/arrowPriceCalc.png") no-repeat 97% 50%;
+	background-color: #eeeeee;
+	color: #7d7d7d;
+	font-size:16.67px;
+	padding-left: 26px;
+	appearance:none;
+}
+.priceCalcSpacer{
+	width:100%;
+	margin: 24px 0px;
+	border:solid #d1d1d1 1px;
+}
+.priceCalc h4{
+	font-size: 20.83px;
+	text-align: left;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.counterLeftPart{
+	float:left;
+	width: 50%;
+}
+.counterRightPart{
+	float:left;
+	width: 50%;
+	text-align: right;
+	font-size: 29.17px;
+	font-weight: 600;
+}
+.stats{
+	background: url("../img/background4.png") 50% 50% no-repeat;
+	float:left;
+	width: 100%;
+	height: 500px;
+}
+.statsBlocks{
+	padding: 38px 361.5px;
+}
+.statsBlocks1{
+	width: 100%;
+	height: 100%;
+}
+.statsBlocksContainers{
+	float:left;
+	width: 25%;
+	padding: 0px 40px;
+	text-align: center;
+}
+.statsBlocksContainers h3{
+	font-weight: 800;
+	margin-top: 31px;
+}
+.statsBlocksContainers h4{
+	font-weight: 600;
+	letter-spacing: -1px;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.rewiews{
+	float: left;
+	width: 100%;
+	height: 596px;
+	padding: 0px 477.5px;
+}
+.dude{
+	background: url("../img/dude.png") no-repeat center center;
+	height: 102px;
+}
+.rewiews h4{
+	margin-top: 34px;
+	width: 100%;
+	text-align: center;
+}
+.dots{
+	background: url("../img/dots.png") no-repeat center;
+	height: 10px;
+	width: 100%;
+	margin-top: 50px;
+}
+.contacts{
+	background: url("../img/background5.png");
+	height: 808px;
+	float: left;
+	width: 100%;
+	padding:0px 595px;
+}
+.contacts h3{color: #fff;}
+.contacts h4{color: #fff; width: 100%; float:left; text-align: center; font-size: 20px;margin:38px 0px 46px 0px;}
+.contacts h5{color: #fff; text-align: center; font-size: 16.67px;}
+.contactsBlocks{
+	width: 33.3%;
+	float: left;
+	margin-top: 45px;
+}
+.contactsGeoTag{
+	background: url("../img/geotag.png") no-repeat center;
+	height: 26px;
+	margin-bottom: 15px;
+}
+.contactsMail{
+	background: url("../img/mail.png") no-repeat center;
+	height: 26px;
+	margin-bottom: 15px;
+}
+.contactsPhone{
+	background: url("../img/phone.png") no-repeat center;
+	height: 26px;
+	margin-bottom: 15px;
+}
+.contacts form{
+	float: left;
+	width: 100%;
+}
+.contactsField1{
+	width: 	49%;
+	float: left;
+	margin-bottom: 15px;
+	height: 35px;
+	padding-left: 26px;
+}
+.aLittleBitSpaceBetween{
+	width: 2%;
+	height: 2px;
+	float: left;
+}
+.contactsField2{
+	width: 	49%;
+	float: left;
+	height: 35px;
+	padding-left: 26px;
+	}
+.contactsField3{
+	width: 100%;
+	height: 96px;
+	padding: 10px 0px 0px 26px;
+	resize: none;
+}
+.contacts input::placeholder{
+ 	color: #5d5d5e;
+}
+.contacts textarea::placeholder{
+ 	color: #5d5d5e;
+}
+.contactsSubmitButton{
+	float: left;
+	height:46px;
+	background: none;
+	color: #fff;
+	border-radius: 5px;
+	border: solid;
+	border-width: 1px;
+	padding: 0 20px;
+	margin: 30px 302px 0px 302px;
+	font-size: 20.83px;
+}
+.contactsSocialButtons{
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-top: 18px; 
+}
+a#socialNetwork{
+	color: white;
+	margin: 0px 24px;
+}
+.map{
+	float: left;
+	width: 100%;
+	height:355px;
+	padding-top: 150px;
+	background-color: #c2e2b5;
+}
+footer{
+	float:left;
+	width: 100%;
+	height:100px;
+	background-color: #354051;
+}
+.footerText{
+	color:#FFF;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 13.27px;
+	letter-spacing: -1.0px;
+}
