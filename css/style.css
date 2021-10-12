@@ -43,7 +43,7 @@ h5{
 .main{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url("../img/andrewbrown.png") no-repeat 90% 100%/auto 85%, url("../img/background.png") center/cover no-repeat;
+	background: url("../img/AndrewBrown.png") no-repeat 90% 100%/auto 85%, url("../img/background.png") center/cover no-repeat;
 }
 .title_container{
 	margin: 432px 0px 0px 404px;
